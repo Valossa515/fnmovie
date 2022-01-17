@@ -43,6 +43,7 @@ function Form({ movieId } : Props) {
 
         axios(config)
         .then(response =>{
+            alert("Filme avalidado com sucesso!!!");
             navigate("/");
         });
     }
